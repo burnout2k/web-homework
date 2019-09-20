@@ -1,0 +1,66 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+#top {
+    background-color: #ccc;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#mid {
+    background-color: #ccc;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.intro {
+    color: red;
+    font-weight: bold;
+}
+
+li.spacious {
+    margin: 2em;
+    align-items: center;
+
+}
+
+li {
+    margin: 2em;
+    align-items: center;
+
+}
+
+.test{
+    display: inline-block;
+    justify-content: center;
+    height: 250px;
+}
+
+section th {
+    color: red;
+}
+
+tr  > td {
+    color: brown;
+}
+
+section li + li {
+    color: green;
+}
+
+thead {
+    background: gray;
+}
+
+tbody {
+    background: #ccc;
+}
