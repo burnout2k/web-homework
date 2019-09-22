@@ -64,3 +64,21 @@ thead {
 tbody {
     background: #ccc;
 }
+
+/*==============Footer====================*/
+
+footer a:hover {
+  color: #ff5f52;
+    text-decoration: none;
+}
+
+footer ul > li{
+	list-style: none;
+	display:inline;
+}
+footer li a {
+	color: #bcbcbc;
+    text-decoration: none;
+}
+
+/*=======================================*/
