@@ -2,58 +2,48 @@
     font-family: 'Open Sans', sans-serif;
 }
 html, body {
-    margin: 0;
-    padding: 0;
     background-color: #f7f7f7;
     text-align: center;
 }
 
+/*==============Header====================*/
+
 #top {
     background-color: #ccc;
     padding: 20px;
-    align-items: center;
-    text-align: center;
+}
+
+.intro {
+    color: yellow;
+    font-weight: bold;
+}
+
+/*=======================================*/
+
+.center{
+    display: inline-block;
+    height: 250px;
+}
+
+li {
+    margin: 3em;
+    color: red;
+}
+
+section li + li {
+    color: green;
 }
 
 #mid {
     background-color: #ccc;
     padding: 20px;
-    align-items: center;
-    text-align: center;
-}
-
-.intro {
-    color: red;
-    font-weight: bold;
-}
-
-li.spacious {
-    margin: 2em;
-    align-items: center;
-
-}
-
-li {
-    margin: 2em;
-    align-items: center;
-
-}
-
-.test{
-    display: inline-block;
-    justify-content: center;
-    height: 250px;
 }
 
 section th {
-    color: red;
+    color: yellow;
 }
 
 tr  > td {
-    color: brown;
-}
-
-section li + li {
     color: green;
 }
 
